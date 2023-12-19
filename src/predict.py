@@ -31,7 +31,7 @@ if __name__ == "__main__":
     file_path = '../data/raw/data.csv'
     recent_data = load_and_clean_data(file_path)
 
-    model_path = '../models/lstm_model_seq1_v2.h5'
+    model_path = '../models/lstm_model_seq1.h5'
     SEQ_LENGTH = 1
 
     data = load_and_clean_data(file_path)
